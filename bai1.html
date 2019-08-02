@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 1:</title>
+</head>
+<body>
+<form>
+
+
+<button type="button" onclick="f();">Check it out!</button>
+    <script>
+function f() {
+    let browser = prompt("");
+
+    switch (browser) {
+        case "edge":
+            alert("You have got the Edge!");
+            break;
+        case  "chrome":
+        case "firefox":
+        case "safari":
+        case "opera":
+            alert("Ok we support these browser too");
+            break;
+        default:
+            alert("So we hope that this page looks ok!")
+
+    }
+}
+</script>
+</form>
+
+
+
+</body>
+</html>
